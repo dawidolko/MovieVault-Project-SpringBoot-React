@@ -1,0 +1,61 @@
+name: movievault
+
+services:
+  movievault-db:
+    image: mariadb:11
+    container_name: movievault-db
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: movievault
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - movievault-net
+
+  movievault-backend:
+    build:
+      context: ../../backend
+      dockerfile: Dockerfile
+    container_name: movievault-backend
+    restart: unless-stopped
+    depends_on:
+      movievault-db:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://movievault-db:3306/movievault?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      APP_DB_SEED: "true"
+    ports:
+      - "8080:8080"
+    networks:
+      - movievault-net
+
+  movievault-frontend:
+    build:
+      context: ../../frontend
+      dockerfile: Dockerfile
+    container_name: movievault-frontend
+    restart: unless-stopped
+    depends_on:
+      - movievault-backend
+    ports:
+      - "80:80"
+    networks:
+      - movievault-net
+
+volumes:
+  db_data:
+
+networks:
+  movievault-net:
+    driver: bridge

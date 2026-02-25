@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Java / Maven
+backend/target/
+backend/*.jar
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-electron/
+frontend/.vite/
+
+# Uploads
+backend/uploads/
+
+# Environment
+.env
+*.env.local
+
+# Logs
+*.log
+logs/
+
+# Docker volumes
+db_data/
