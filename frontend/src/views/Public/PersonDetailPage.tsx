@@ -18,9 +18,9 @@ const PersonDetailPage = () => {
     <div className="page-wrapper">
       <div className="page-body">
         <div className="container-xl">
-          <h2 className="page-title mb-4">{person.firstName} {person.lastName}</h2>
           <div className="row">
             <div className="col-lg-8">
+              <h2 className="page-title mb-4">{person.firstName} {person.lastName}</h2>
               {person.bio && <div className="card mb-3"><div className="card-body"><p>{person.bio}</p></div></div>}
 
               {directed?.length > 0 && (
@@ -50,7 +50,16 @@ const PersonDetailPage = () => {
               )}
             </div>
             <div className="col-lg-4">
-              <div className="card">
+              <div className="card mb-3">
+                {person.photoUrl && !person.photoUrl.includes("placeholder") ? (
+                  <img src={person.photoUrl} alt={`${person.firstName} ${person.lastName}`} className="card-img-top" />
+                ) : (
+                  <div className="card-img-top d-flex align-items-center justify-content-center bg-secondary-lt" style={{ height: 300 }}>
+                    <span className="avatar avatar-xl" style={{ fontSize: "3rem" }}>
+                      {person.firstName?.[0]}{person.lastName?.[0]}
+                    </span>
+                  </div>
+                )}
                 <div className="card-body">
                   <div className="datagrid">
                     {person.birthDate && <div className="datagrid-item"><div className="datagrid-title">Born</div><div className="datagrid-content">{person.birthDate}</div></div>}
