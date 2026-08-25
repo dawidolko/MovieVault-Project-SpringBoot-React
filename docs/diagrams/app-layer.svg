@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="MovieVault — Application Layers">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#8b949e"/></marker></defs>
+<rect width="900" height="400" rx="12" fill="#0d1117"/>
+<text x="24" y="34" fill="#e6edf3" font-size="16" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,sans-serif">MovieVault — Application Layers</text>
+
+<rect x="40" y="78" width="820" height="70" rx="10" fill="none" stroke="#39c5cf" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>
+  <text x="52" y="71" fill="#39c5cf" font-size="12" font-weight="700" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,sans-serif">PRESENTATION</text>
+<rect x="60" y="92" width="250" height="42" rx="8" fill="#161b22" stroke="#39c5cf" stroke-width="1.6"/><text x="185" y="107" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Public views</text>
+       <text x="185" y="126" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">catalog · movie detail · search</text>
+<rect x="335" y="92" width="250" height="42" rx="8" fill="#161b22" stroke="#39c5cf" stroke-width="1.6"/><text x="460" y="107" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">User area</text>
+       <text x="460" y="126" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">reviews · watchlist · profile</text>
+<rect x="610" y="92" width="230" height="42" rx="8" fill="#161b22" stroke="#39c5cf" stroke-width="1.6"/><text x="725" y="107" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Admin dashboard</text>
+       <text x="725" y="126" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">analytics · user management</text>
+<rect x="40" y="178" width="820" height="70" rx="10" fill="none" stroke="#3fb950" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>
+  <text x="52" y="171" fill="#3fb950" font-size="12" font-weight="700" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,sans-serif">APPLICATION</text>
+<rect x="60" y="192" width="250" height="42" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/><text x="185" y="207" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Auth &amp; authorization</text>
+       <text x="185" y="226" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">register · login · roles</text>
+<rect x="335" y="192" width="250" height="42" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/><text x="460" y="207" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Review engine</text>
+       <text x="460" y="226" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">user vs. critic weighting</text>
+<rect x="610" y="192" width="230" height="42" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/><text x="725" y="207" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Analytics</text>
+       <text x="725" y="226" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">aggregated statistics</text>
+<rect x="40" y="278" width="820" height="70" rx="10" fill="none" stroke="#a371f7" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>
+  <text x="52" y="271" fill="#a371f7" font-size="12" font-weight="700" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,sans-serif">DOMAIN &amp; DATA</text>
+<rect x="60" y="292" width="250" height="42" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="1.6"/><text x="185" y="307" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">JPA entities</text>
+       <text x="185" y="326" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Movie · Review · User</text>
+<rect x="335" y="292" width="250" height="42" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="1.6"/><text x="460" y="307" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Repositories</text>
+       <text x="460" y="326" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">paging · filtering · sorting</text>
+<rect x="610" y="292" width="230" height="42" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="1.6"/><text x="725" y="307" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">MariaDB</text>
+       <text x="725" y="326" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">schema + seed data</text>
+</svg>

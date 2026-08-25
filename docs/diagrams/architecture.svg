@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="MovieVault — Application Architecture">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#8b949e"/></marker></defs>
+<rect width="900" height="470" rx="12" fill="#0d1117"/>
+<text x="24" y="34" fill="#e6edf3" font-size="16" font-weight="700" font-family="system-ui,-apple-system,Segoe UI,sans-serif">MovieVault — Application Architecture</text>
+
+<rect x="40" y="78" width="820" height="62" rx="10" fill="none" stroke="#39c5cf" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>
+  <text x="52" y="71" fill="#39c5cf" font-size="12" font-weight="700" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,sans-serif">CLIENT</text>
+<rect x="60" y="90" width="240" height="40" rx="8" fill="#161b22" stroke="#39c5cf" stroke-width="1.6"/><text x="180" y="104" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Browser (SPA)</text>
+       <text x="180" y="123" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">React 18 · TypeScript · Vite</text>
+<rect x="330" y="90" width="240" height="40" rx="8" fill="#161b22" stroke="#39c5cf" stroke-width="1.6"/><text x="450" y="104" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Tabler UI + ApexCharts</text>
+       <text x="450" y="123" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">views · components · contexts</text>
+<rect x="600" y="90" width="240" height="40" rx="8" fill="#161b22" stroke="#39c5cf" stroke-width="1.6"/><text x="720" y="104" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Axios API client</text>
+       <text x="720" y="123" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">JWT bearer interceptor</text>
+<line x1="450" y1="140" x2="450" y2="176" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/><rect x="428.5" y="149" width="43" height="17" rx="4" fill="#0d1117"/>
+       <text x="450" y="161.5" text-anchor="middle" fill="#8b949e" font-size="11" font-family="system-ui,-apple-system,Segoe UI,sans-serif">HTTPS</text>
+<rect x="330" y="176" width="240" height="42" rx="8" fill="#161b22" stroke="#db6d28" stroke-width="1.6"/><text x="450" y="191" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Nginx reverse proxy</text>
+       <text x="450" y="210" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">static assets + /api/* routing</text>
+<line x1="450" y1="218" x2="450" y2="254" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/><rect x="415.3" y="227" width="69.4" height="17" rx="4" fill="#0d1117"/>
+       <text x="450" y="239.5" text-anchor="middle" fill="#8b949e" font-size="11" font-family="system-ui,-apple-system,Segoe UI,sans-serif">REST /api</text>
+<rect x="40" y="246" width="820" height="108" rx="10" fill="none" stroke="#3fb950" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.75"/>
+  <text x="52" y="239" fill="#3fb950" font-size="12" font-weight="700" letter-spacing="0.6" font-family="system-ui,-apple-system,Segoe UI,sans-serif">SPRING BOOT 3.4 · JAVA 21</text>
+<rect x="60" y="258" width="180" height="40" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/><text x="150" y="272" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Controllers</text>
+       <text x="150" y="291" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">REST endpoints</text>
+<rect x="255" y="258" width="180" height="40" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/><text x="345" y="272" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Services</text>
+       <text x="345" y="291" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">business logic</text>
+<rect x="450" y="258" width="180" height="40" rx="8" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/><text x="540" y="272" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Repositories</text>
+       <text x="540" y="291" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Spring Data JPA</text>
+<rect x="645" y="258" width="195" height="40" rx="8" fill="#161b22" stroke="#f85149" stroke-width="1.6"/><text x="742.5" y="272" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Security</text>
+       <text x="742.5" y="291" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Spring Security + JWT</text>
+<rect x="60" y="306" width="375" height="36" rx="8" fill="#161b22" stroke="#8b949e" stroke-width="1.6"/><text x="247.5" y="318" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Seeders</text>
+       <text x="247.5" y="337" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">50+ movies, users, reviews</text>
+<rect x="450" y="306" width="390" height="36" rx="8" fill="#161b22" stroke="#8b949e" stroke-width="1.6"/><text x="645" y="318" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Model / Entities</text>
+       <text x="645" y="337" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">Movie · Review · Watchlist · User</text>
+<line x1="450" y1="354" x2="450" y2="392" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/><rect x="392.2" y="364" width="115.6" height="17" rx="4" fill="#0d1117"/>
+       <text x="450" y="376.5" text-anchor="middle" fill="#8b949e" font-size="11" font-family="system-ui,-apple-system,Segoe UI,sans-serif">JDBC / Hibernate</text>
+<rect x="330" y="392" width="240" height="44" rx="8" fill="#161b22" stroke="#a371f7" stroke-width="1.6"/><text x="450" y="408" text-anchor="middle" fill="#e6edf3" font-size="14" font-weight="600" font-family="system-ui,-apple-system,Segoe UI,sans-serif">MariaDB 11</text>
+       <text x="450" y="427" text-anchor="middle" fill="#8b949e" font-size="11.5" font-family="system-ui,-apple-system,Segoe UI,sans-serif">relational persistence</text>
+</svg>
