@@ -31,6 +31,20 @@ The project demonstrates a production-shaped **Spring Boot 3** REST API secured 
 
 ---
 
+## 🖼️ Screenshots
+
+| Home — featured & top rated | Movie catalog |
+|---|---|
+| [<img src="docs/screenshots/home.webp" alt="MovieVault home page showing a featured film with scores and a top rated carousel"/>](docs/screenshots/home.webp) | [<img src="docs/screenshots/movies.webp" alt="Movie catalog with genre filters, sorting and paginated poster grid"/>](docs/screenshots/movies.webp) |
+
+| Admin dashboard — analytics | Sign in |
+|---|---|
+| [<img src="docs/screenshots/admin-dashboard.webp" alt="Admin dashboard with totals, genre distribution donut chart, reviews per month bar chart and most active reviewers"/>](docs/screenshots/admin-dashboard.webp) | [<img src="docs/screenshots/login.webp" alt="Login page with email and password fields"/>](docs/screenshots/login.webp) |
+
+> Captured from the running Docker stack with the bundled seed data (52 movies, 8 users, 243 reviews).
+
+---
+
 ## 🏗️ Architecture
 
 ### Application Layer
