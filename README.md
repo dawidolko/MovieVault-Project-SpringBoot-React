@@ -12,6 +12,7 @@ The project demonstrates a production-shaped **Spring Boot 3** REST API secured 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-11-003545?logo=mariadb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -219,7 +220,7 @@ MovieVault-Project-SpringBoot-React/
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
