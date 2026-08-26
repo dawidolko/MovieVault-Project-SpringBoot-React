@@ -34,3 +34,6 @@ logs/
 
 # Docker volumes
 db_data/
+
+# Machine-local Claude settings
+.claude/settings.local.json
