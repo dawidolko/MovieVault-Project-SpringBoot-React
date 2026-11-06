@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/dawidolko/MovieVault-Project-SpringBoot-React"><img src="docs/readme/banner.webp" alt="MovieVault: fullstack platform. Full-Stack Movie Review Platform - Browse, rate and review movies with a complete admin analytics suite" width="100%"></a>
+</p>
+
 # MovieVault
 
 > 🚀 **Full-Stack Movie Review Platform** - Browse, rate and review movies with a complete admin analytics suite
@@ -13,6 +17,8 @@ The project demonstrates a production-shaped **Spring Boot 3** REST API secured 
 ![MariaDB](https://img.shields.io/badge/MariaDB-11-003545?logo=mariadb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+**[Video](https://youtu.be/ooIoa_PGRzk)** · [Screenshots](#️-screenshots) · [Getting started](#-getting-started)
 
 ---
 
@@ -226,7 +232,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created by **[Dawid Olko](https://github.com/dawidolko)**
+**Dawid Olko** · Fullstack / AI Developer
 
-- **Website** — [dawidolko.pl](https://dawidolko.pl/)
-- **LinkedIn** — [@dawidolko](https://www.linkedin.com/in/dawidolko/)
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
