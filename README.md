@@ -74,6 +74,12 @@ The project demonstrates a production-shaped **Spring Boot 3** REST API secured 
 
 ---
 
+## 🎬 Demo
+
+[![Watch the demo on YouTube](https://img.youtube.com/vi/ooIoa_PGRzk/hqdefault.jpg)](https://youtu.be/ooIoa_PGRzk)
+
+---
+
 ## 🛠️ Technology Stack
 
 ### Frontend
