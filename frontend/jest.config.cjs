@@ -7,10 +7,14 @@ module.exports = {
   moduleNameMapper: {
     "\\.(css|less|scss|sass)$": "identity-obj-proxy",
   },
-  // Dodajemy setupFiles, ktore beda wykonane przed testami
+  /*
+   * Add setup files that run before the tests
+   */
   setupFilesAfterEnv: ["<rootDir>/src/tests/setupTests.ts"],
 
-  // Wyciszanie ostrzeżeń deprecacji (np. dla punycode)
+  /*
+   * Silence deprecation warnings (e.g. for punycode)
+   */
   testRunner: "jest-circus/runner",
   // setupFiles: ['<rootDir>/src/tests/silenceWarnings.js']
 };
