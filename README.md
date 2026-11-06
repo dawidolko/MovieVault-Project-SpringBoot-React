@@ -230,6 +230,12 @@ MovieVault-Project-SpringBoot-React/
 
 ---
 
+## ♿ Accessibility
+
+An accessibility panel in the corner of every page changes text size, contrast, font and motion, and remembers the choice on the device. It sits on top of the markup and does not replace accessible markup.
+
+---
+
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE). The MIT licence covers the project's code only. Posters and actor photos belong to their owners, see [CREDITS.md](CREDITS.md).
