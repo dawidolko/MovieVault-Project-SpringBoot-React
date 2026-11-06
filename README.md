@@ -226,7 +226,9 @@ MovieVault-Project-SpringBoot-React/
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE). The MIT licence covers the project's code only. Posters and actor photos belong to their owners, see [CREDITS.md](CREDITS.md).
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ---
 

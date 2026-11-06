@@ -39,6 +39,9 @@ const Footer = ({ onHeightChange }: { onHeightChange?: (height: number) => void 
               <li className="list-inline-item">
                 &copy; 2025 MovieVault by Dawid Olko. All rights reserved.
               </li>
+              <li className="list-inline-item">
+                This product uses the TMDB API but is not endorsed or certified by TMDB.
+              </li>
             </ul>
           </div>
         </div>
